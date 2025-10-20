@@ -1,4 +1,4 @@
-# Next.js 14 Developer Portfolio Template
+# Next.js 14 Developer
 
 ## 🛠️ Tech Stack
 
