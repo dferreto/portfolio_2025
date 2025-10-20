@@ -19,25 +19,3 @@ The portfolio is perfomed with this components:
 4. **Career Timeline**: Customize your career journey in `config/career.ts`
 5. **Contributions**: Showcase your contributions in `config/contributions.ts`
 6. **Colors & Theme**: Modify the theme in `tailwind.config.js`
-
-## 🌟 Features In Detail
-
-### Career Timeline
-
-An interactive, animated timeline that showcases your professional journey with expandable sections for details about each position.
-
-### Skills Showcase
-
-Visually represent your technical and soft skills with customizable ratings and categories.
-
-### Project Gallery
-
-Display your projects with detailed information, technologies used, and live demo links.
-
-### Contact Form Integration
-
-A ready-to-use contact form that can connect to various backend services.
-
-### SEO Optimization
-
-Built-in SEO features with proper meta tags, structured data, and semantic HTML.
