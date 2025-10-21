@@ -4,7 +4,7 @@ export const siteConfig = {
   username: "dferreto",
   description:
     "Dinier Ferreto portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
-  url: "https://portfolio-2025-gh4ncvkz5-dinier-ferretos-projects.vercel.app",
+  url: "https://portfolio-2025-chi-pink.vercel.app",
   links: {
     twitter: "",
     github: "https://github.com/dferreto",

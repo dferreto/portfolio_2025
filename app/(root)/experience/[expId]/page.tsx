@@ -117,7 +117,7 @@ export default function Experience({ params }: ExperiencePageProps) {
 
       <div className="mb-7 ">
         <h2 className="inline-block font-heading text-3xl leading-tight lg:text-3xl mb-5">
-          Page Info
+          Page Info or App Info
         </h2>
         {exp.pagesInfoArr.map((page, ind) => (
           <div key={ind}>

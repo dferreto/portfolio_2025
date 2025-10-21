@@ -12,6 +12,7 @@ export type ValidSkills =
   | "Javascript"
   | "HTML 5"
   | "CSS 3"
+  | "SCSS"
   | "React Native"
   | "Angular"
   | "Redux"
@@ -66,7 +67,10 @@ export type ValidSkills =
   | "Cisco"
   | "VirtualBox"
   | "Android Studio"
-  |"Technical Support";
+  |"Technical Support"
+  | "Kotlin"
+  | "Ruby"
+  | "JavaScript";
 
 
 export type ValidCategory =
