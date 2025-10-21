@@ -6,7 +6,7 @@ export interface CareerExperienceInterface {
   company: string;
   location: string;
   startDate: Date;
-  endDate: Date;
+  endDate: Date | "Present";
   description: string[];
   achievements: string[];
   skills: ValidSkills[];
@@ -20,8 +20,8 @@ export const careerExperiences: CareerExperienceInterface[] = [
     position: "Developer IT",
     company: "Delfixcr",
     location: "Costa Rica",
-    startDate: new Date(2025, 5, 3), // Junio 3, 2025
-    endDate: new Date(2025, 10, 20), // Octubre 20, 2025
+    startDate: new Date("2025, 5, 3T12:00:00"), // Junio 3, 2025
+    endDate: new Date("2025, 10, 20"), // Octubre 20, 2025
     description: [
       "Maintain and support the Odoo ERP system, including user assistance and configuration of modules like inventory, sales, invoicing, and accounting.",
       "Develop and troubleshoot custom Python scripts to resolve technical issues and enhance Odoo functionality.",
