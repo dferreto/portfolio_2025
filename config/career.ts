@@ -17,7 +17,7 @@ export interface CareerExperienceInterface {
 export const careerExperiences: CareerExperienceInterface[] = [
   {
     id: "Developer-IT-Delfixcr",
-    position: "Developer IT",
+    position: "IT Developer",
     company: "Delfixcr",
     location: "Costa Rica",
     startDate: new Date("2025-05-03T12:00:00"), // Junio 3, 2025
