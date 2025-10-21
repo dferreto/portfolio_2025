@@ -193,10 +193,12 @@ const Timeline: React.FC<TimelineProps> = ({ experiences }) => {
 
   // Sort experiences by date (most recent first)
   const sortedExperiences = [...experiences].sort((a, b) => {
-    const dateA = a.endDate === "Present" ? new Date() : a.endDate;
-    const dateB = b.endDate === "Present" ? new Date() : b.endDate;
-    return dateB.getTime() - dateA.getTime();
-  });
+  const dateA = typeof a.endDate === "string" && a.endDate === "Present" ? new Date() : a.endDate;
+  const dateB = typeof b.endDate === "string" && b.endDate === "Present" ? new Date() : b.endDate;
+
+  return dateB.getTime() - dateA.getTime();
+});
+
 
   // Auto-expand the first item on initial load
   useEffect(() => {

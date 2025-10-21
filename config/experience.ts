@@ -21,7 +21,7 @@ export interface ExperienceInterface {
   githubLink?: string;
   techStack: ValidSkills[];
   startDate: Date;
-  endDate: Date;
+  endDate: Date | "Present"; 
   companyLogoImg: any;
   descriptionDetails: DescriptionDetailsInterface;
   pagesInfoArr: PagesInfoInterface[];
