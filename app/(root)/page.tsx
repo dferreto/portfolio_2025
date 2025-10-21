@@ -122,7 +122,7 @@ export default function IndexPage() {
                 )}
                 aria-label="Contact Dinier Ferreto on WhatsApp"
               >
-                <Icons.contact className="w-4 h-4 mr-2" /> WhatsApp
+                <Icons.contact className="w-4 h-4 mr-2" /> Contact
               </Link>
 
             </AnimatedText>
