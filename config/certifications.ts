@@ -42,7 +42,7 @@ export const certificationsUnsorted: certificationsInterface[] = [
     certificationDescription:
       "EF SET English Certificate 52/100 (B2 Upper Intermediate)",
     repoOwner: "EF SET",
-    link: "https://cert.efset.org/en/RGYqjn", // ejemplo referencial
+    link: "https://cert.efset.org/en/7vvZ3f", // ejemplo referencial
   },
 ];
 

@@ -21,10 +21,10 @@ export interface ExperienceInterface {
   githubLink?: string;
   techStack: ValidSkills[];
   startDate: Date;
-  endDate: Date | "Present"; 
+  endDate: Date | "Present";
   companyLogoImg: any;
   descriptionDetails: DescriptionDetailsInterface;
-  pagesInfoArr:  PagesInfoInterface[];
+  pagesInfoArr: PagesInfoInterface[];
 }
 
 export const Experiences: ExperienceInterface[] = [
@@ -32,18 +32,11 @@ export const Experiences: ExperienceInterface[] = [
     id: "api-pokemon",
     companyName: "Api Pokemon Mobile",
     type: "Personal Project",
-    category: [ "Full Stack", "UI/UX", "Mobile Dev"],
+    category: ["Full Stack", "UI/UX", "Mobile Dev"],
     shortDescription:
-      "Users can filter Pokémon by generation or type, and explore individual details such as stats, abilities, and evolutions."
-,
+      "Users can filter Pokémon by generation or type, and explore individual details such as stats, abilities, and evolutions.",
     githubLink: "https://github.com/dferreto/exam01-moviles2",
-    techStack: [
-      "Kotlin",
-      "Ruby",
-      "JavaScript",
-      "Typescript",
-      "React Native"
-    ],
+    techStack: ["Kotlin", "Ruby", "JavaScript", "Typescript", "React Native"],
     startDate: new Date("2024-02-19"),
     endDate: new Date("2024-03-03"),
     companyLogoImg: "/experience/pokemonApp/pokemon-image.jpg",
@@ -62,33 +55,30 @@ export const Experiences: ExperienceInterface[] = [
         title: "Pokémon Info Screen",
         description:
           "Detailed information screen for individual Pokémon. This view displays the selected Pokémon's sprite, name, Pokédex code, height, and weight. It also categorizes the Pokémon by its types (e.g., Fighting, Steel) and lists available movements. The UI is clean and segmented with consistent styling and responsive components, offering users a structured overview of each Pokémon's attributes.",
-        imgArr: [
-          "/experience/pokemonApp/infoPokemon.jpeg",
-        ],
+        imgArr: ["/experience/pokemonApp/infoPokemon.jpeg"],
       },
-      
     ],
     descriptionDetails: {
       paragraphs: [
-         "Api Pokémon Mobile is an Android application developed in Kotlin, designed to offer users a smooth and visually engaging experience while exploring the vast Pokémon universe through full integration with the PokéAPI. This project was conceived as an intensive practice in native mobile development, combining REST API consumption, responsive design, modern architecture patterns, and a user-centered design approach.",
+        "Api Pokémon Mobile is an Android application developed in Kotlin, designed to offer users a smooth and visually engaging experience while exploring the vast Pokémon universe through full integration with the PokéAPI. This project was conceived as an intensive practice in native mobile development, combining REST API consumption, responsive design, modern architecture patterns, and a user-centered design approach.",
 
-  "From the main screen, users can access an interactive catalog displaying a dynamic list of Pokémon, each accompanied by its official image, name, and Pokédex number. The navigation system allows easy exploration of individual Pokémon details, including base stats, types, abilities, and evolutions. The app also includes key features such as real-time search by name or number, making it easy to quickly find any Pokémon of interest.",
+        "From the main screen, users can access an interactive catalog displaying a dynamic list of Pokémon, each accompanied by its official image, name, and Pokédex number. The navigation system allows easy exploration of individual Pokémon details, including base stats, types, abilities, and evolutions. The app also includes key features such as real-time search by name or number, making it easy to quickly find any Pokémon of interest.",
 
-  "On a technical level, the app makes extensive use of mobile development best practices, including the use of ViewModels to manage state, efficient data consumption using Retrofit, and image handling via Glide. The UI design follows Material Design principles and adapts responsively to different screen sizes, ensuring a consistent experience across phones and tablets.",
+        "On a technical level, the app makes extensive use of mobile development best practices, including the use of ViewModels to manage state, efficient data consumption using Retrofit, and image handling via Glide. The UI design follows Material Design principles and adapts responsively to different screen sizes, ensuring a consistent experience across phones and tablets.",
 
-  "The project also incorporates features such as error handling for network failures, visual loading states to improve perceived performance, and local caching to enable faster navigation between views. All of this makes Api Pokémon Mobile not just an educational tool for learning modern mobile development, but also a functional app that showcases real-world capabilities for building scalable and maintainable products.",
+        "The project also incorporates features such as error handling for network failures, visual loading states to improve perceived performance, and local caching to enable faster navigation between views. All of this makes Api Pokémon Mobile not just an educational tool for learning modern mobile development, but also a functional app that showcases real-world capabilities for building scalable and maintainable products.",
       ],
       bullets: [
         "Developed a native Android app using Kotlin, fully integrated with the PokéAPI.",
-  "Implemented a dynamic and searchable Pokédex catalog with real-time filtering by name or ID.",
-  "Designed individual Pokémon detail views displaying stats, types, abilities, and evolutions.",
-  "Applied modern architecture patterns using ViewModel for state management and clean UI logic.",
-  "Used Retrofit for efficient API communication and Glide for optimized image loading.",
-  "Followed Material Design principles to ensure a consistent and responsive user interface.",
-  "Included error handling for network failures and implemented visual loading states.",
-  "Enabled local data caching to improve performance and provide smoother navigation.",
-  "Optimized for mobile and tablet screens, ensuring responsiveness across multiple devices.",
-  "Demonstrated real-world app development skills with a focus on scalability and maintainability.",
+        "Implemented a dynamic and searchable Pokédex catalog with real-time filtering by name or ID.",
+        "Designed individual Pokémon detail views displaying stats, types, abilities, and evolutions.",
+        "Applied modern architecture patterns using ViewModel for state management and clean UI logic.",
+        "Used Retrofit for efficient API communication and Glide for optimized image loading.",
+        "Followed Material Design principles to ensure a consistent and responsive user interface.",
+        "Included error handling for network failures and implemented visual loading states.",
+        "Enabled local data caching to improve performance and provide smoother navigation.",
+        "Optimized for mobile and tablet screens, ensuring responsiveness across multiple devices.",
+        "Demonstrated real-world app development skills with a focus on scalability and maintainability.",
       ],
     },
   },
@@ -116,35 +106,71 @@ export const Experiences: ExperienceInterface[] = [
         title: "Episodes loading screen",
         description:
           "Episodes loading screen displaying a list of Rick and Morty episodes with interactive filtering and carousel navigation for easy browsing.",
-         imgArr: ["/experience/api-rickAndmorty/episodes.png",
-          "/experience/api-rickAndmorty/filterEpisodes.png"
-         ],
+        imgArr: [
+          "/experience/api-rickAndmorty/episodes.png",
+          "/experience/api-rickAndmorty/filterEpisodes.png",
+        ],
       },
-      
     ],
     descriptionDetails: {
       paragraphs: [
         "The Rick and Morty App is a web project developed using Angular, designed to provide fans of the show an interactive experience exploring characters, episodes, and locations through the official Rick and Morty API.",
-      "This application features a modern, responsive design that ensures usability across devices and incorporates best practices in web development such as modular components, state management, and efficient API consumption.",
-      "Users can navigate through comprehensive lists with pagination, apply dynamic search filters, and explore detailed views for each character, episode, and location, all while enjoying smooth animations and intuitive UI patterns.",
-      "The project showcases proficiency in TypeScript, SCSS styling, Angular routing, and component-driven architecture, demonstrating the ability to build scalable, maintainable front-end applications."
+        "This application features a modern, responsive design that ensures usability across devices and incorporates best practices in web development such as modular components, state management, and efficient API consumption.",
+        "Users can navigate through comprehensive lists with pagination, apply dynamic search filters, and explore detailed views for each character, episode, and location, all while enjoying smooth animations and intuitive UI patterns.",
+        "The project showcases proficiency in TypeScript, SCSS styling, Angular routing, and component-driven architecture, demonstrating the ability to build scalable, maintainable front-end applications.",
       ],
       bullets: [
         "Implemented Angular application consuming Rick and Morty API for dynamic data display",
-      "Designed clean and responsive UI with card-based layouts for characters and episodes",
-      "Developed pagination and filtering mechanisms to handle large datasets efficiently",
-      "Integrated routing for seamless navigation between characters, episodes, and locations",
-      "Utilized SCSS for modular and maintainable styling with theming support",
-      "Ensured cross-device responsiveness and accessibility best practices",
-      "Applied Angular best practices including component-driven architecture and state management",
-      "Incorporated smooth animations and interactive UI elements for enhanced user experience"
+        "Designed clean and responsive UI with card-based layouts for characters and episodes",
+        "Developed pagination and filtering mechanisms to handle large datasets efficiently",
+        "Integrated routing for seamless navigation between characters, episodes, and locations",
+        "Utilized SCSS for modular and maintainable styling with theming support",
+        "Ensured cross-device responsiveness and accessibility best practices",
+        "Applied Angular best practices including component-driven architecture and state management",
+        "Incorporated smooth animations and interactive UI elements for enhanced user experience",
       ],
     },
   },
+  {
+    id: "Super-Squads",
+    companyName: "Super Squads",
+    type: "Professional",
+    category: ["Web Dev", "Full Stack", "UI/UX"],
+    shortDescription:
+      "Tourism website for Super Quads featuring an interactive wheel-shaped carousel that highlights the quad biking adventure experience in the heart of nature.",
+    githubLink: "https://github.com/dferreto/prueba-tecnica",
+    techStack: ["React", "CSS 3", "HTML 5", "JavaScript"],
+    startDate: new Date("2025-06-30"),
+    endDate: new Date("2025-07-02"),
+    companyLogoImg: "/experience/superQuads/logoQuads.png",
+    pagesInfoArr: [
+      {
+        title: "Carrusel screen",
+        description:
+          "Professional website built for Super Quads, an adventure tourism experience offering guided quad bike tours through lush natural trails in small groups. A standout feature is the interactive carousel designed as a tire, visually showcasing key attractions such as vibrant nature, thermal pools, and more.",
 
-  
-
-  
+        imgArr: ["/experience/superQuads/body.png"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "The Super Quads website is a tourism-focused web project designed to promote an outdoor ATV adventure experience through Costa Rican nature trails in small guided groups.",
+        "A standout feature of the website is an interactive tire-shaped carousel that creatively displays various highlights of the tour, such as live nature, thermal pools, and group rides.",
+        "The site combines bold visuals with intuitive navigation, including a dedicated photo adventure gallery and a clear call-to-action for booking, ensuring an engaging and user-friendly experience.",
+        "This project demonstrates strong skills in front-end development, with a focus on UI/UX design, component structuring, responsive layouts, and interactive features that bring the adventure to life online.",
+      ],
+      bullets: [
+        "Developed a tourism-oriented website for Super Quads promoting ATV adventures in natural environments",
+        "Built an interactive wheel-shaped carousel to showcase tour features dynamically",
+        "Designed a clean, responsive UI optimized for mobile and desktop viewing",
+        "Created an adventure gallery section to display immersive images from the tours",
+        "Integrated a prominent booking call-to-action to drive user engagement",
+        "Focused on accessibility and performance to ensure a seamless user experience",
+        "Applied modular component structure and reusable UI patterns for scalability",
+        "Used visual animations and bold design elements to reflect the adventurous brand identity",
+      ],
+    },
+  },
 ];
 
 export const featuredExperiences = Experiences.slice(0, 3);
